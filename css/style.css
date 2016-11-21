@@ -6,11 +6,13 @@
 
 .jumbotron {
 	background-image:url('../image/background1.jpg');
+	 background-size: 1000px;
 	background-attachment: fixed;
 	min-height: 500px;
 	margin-bottom: 0px;
-}	
-	
+	}	
+
+
 
 .dropmenu{
 	
@@ -18,6 +20,22 @@
 
 .firstcover{
 		text-align: center;
+	}
+.smackfont{
+	font-family: Big Caslon;
+	font-style: bold;
+	font-weight: 800;
+	font-size: 80px;
+	text-shadow: 0 0 20px white, 0 0 40px white;
+
+	}
+	
+#slogan{
+	font-style: italic;
+	font-weight: 1000;
+	font-size: 30px;
+	text-shadow: 0 0 1px black, 0 0 1px black;
+
 	}
 
 .aboutsect{
