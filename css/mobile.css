@@ -1,0 +1,19 @@
+@media screen and (max-width: 480px) {
+    img.smackage{
+       min-width: 50px;
+	   max-width: 200px;
+	   
+	   
+	  
+		
+    }
+	
+	.smackfont{
+	font-family: Big Caslon;
+	font-style: bold;
+	font-weight: 900;
+	font-size: 40px;
+	text-shadow: 0 0 20px white, 0 0 40px white;
+
+	}
+}	
