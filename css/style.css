@@ -114,7 +114,19 @@ h1.ab_main{
 	h1.ab_main{
 		font-weight: 700;
 		font-size: 30px;
+		}
+	}
+	
+@media screen and (min-width: 991px) {
+	p.ab_top{
+		font-weight: 600;
+			}
+			
+	h1.ab_main{
+		font-weight: 700;
+		font-size: 30px;
 		}	
+	}
 
 .absubhead{
 	
