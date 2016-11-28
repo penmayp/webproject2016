@@ -11,6 +11,7 @@
 .dropmenu{
 	position: fixed;
 	top: 0px;
+	z-index: 20;
 	
 	}
 
@@ -54,7 +55,7 @@ img.arrow {
 	width: 80px;
 	position: relative; 
 	left: 45%;
-	z-index: 5;
+	z-index: 3;
 	}
 /*	
 .arrow{
@@ -72,20 +73,49 @@ margin: -100px 0 0 -150px;
 	
 	}
 
-.abouthead{
-	position: static;
-	z-index: 15;
-	top: -300px;
-	left: 47%;
-	
-	}	
 
 img.smackage{
 	width: 100%;
 	}	
 	
+.abouthead{
+	width: 80px;
+	position: absolute; 
+	top: 5px;
+	z-index: 5;
+	left: 41%;
+	}
 
+
+p.ab_top{
+	font-style: bold;
+	font-weight: 700;
+	font-size: 30px;
+	}
+
+h1.ab_main{
+	font-style: bold;
+	font-weight: 800;
+	font-size: 40px;
+
+	}
 	
+@media screen and (max-width: 490px) {
+	.abouthead{
+	left: 30%;
+	}
+	
+	p.ab_top{
+		font-weight: 600;
+		font-size: 20px;
+
+			}
+			
+	h1.ab_main{
+		font-weight: 700;
+		font-size: 30px;
+		}	
+
 .absubhead{
 	
 }
