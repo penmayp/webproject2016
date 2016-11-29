@@ -35,6 +35,8 @@
 	text-shadow: 0 0 20px white, 0 0 40px white;
 
 	}
+
+/*
 	
 @media screen and (max-width: 480px) {
 .smackfont{
@@ -43,6 +45,8 @@
 
 		}
 	}	
+	
+*/
 
 #slogan{
 	font-style: italic;
@@ -69,21 +73,48 @@ margin: -100px 0 0 -150px;
 */
 
 .ableft{
+	
 	margin-left: -2cm; 
+	background-image:url('../image/aboutsk.jpg');
+	background-size: 800px;
+	background-attachment: relative;
+ background-repeat: no-repeat;
+
+	min-height: 400px;
+	margin-bottom: 0px;
+	
 	
 	}
-
+/*
 
 img.smackage{
 	width: 100%;
 	}	
+
+*/
+	
+/*
+img.smackage{
+	width: 100%;
+	background-attachment: fixed;
+	min-height: 400px;
+	margin-bottom: 0px;
+	}	
+	
+
+*/	
 	
 .abouthead{
 	width: 80px;
 	position: absolute; 
 	top: 5px;
 	z-index: 5;
-	left: 41%;
+	left: 25%;
+	right: 20%;
+	background:  rgba(255, 255, 255, 0.7);
+	padding-right: 100px;
+	padding-left: 10px;
+
 	}
 
 
@@ -91,6 +122,7 @@ p.ab_top{
 	font-style: bold;
 	font-weight: 700;
 	font-size: 30px;
+	height: 20px;
 	}
 
 h1.ab_main{
@@ -99,6 +131,8 @@ h1.ab_main{
 	font-size: 40px;
 
 	}
+	
+	/*
 	
 @media screen and (max-width: 490px) {
 	.abouthead{
@@ -116,7 +150,11 @@ h1.ab_main{
 		font-size: 30px;
 		}
 	}
+
 	
+	*/
+	
+/*	
 @media screen and (min-width: 991px) {
 	p.ab_top{
 		font-weight: 600;
@@ -127,6 +165,31 @@ h1.ab_main{
 		font-size: 30px;
 		}	
 	}
+
+.ab_body_con{
+	height: 1000px;
+	}
+	
+	*/
+	
+.ab_right{
+	background-image:url('../image/bg4.jpg');
+	background-size: 500px;
+	 padding-bottom: 30px;
+	 padding-top: 40px;
+	}
+p.ab_body{
+	background:  rgba(255, 255, 255, 0.8);
+	font-weight: 700;
+	font-size: 27px;
+
+	padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 80px;
+	
+	}	
+
 
 .absubhead{
 	
