@@ -117,7 +117,7 @@ img.smackage{
 	left: 25%;
 	right: 20%;
 	background:  rgba(255, 255, 255, 0.7);
-	padding-right: 100px;
+	padding-right: 200px;
 	padding-left: 10px;
 
 	}
@@ -196,6 +196,23 @@ p.ab_body{
 	}	
 
 
+.serv_head{
+	background-image:url('../image/service.jpg');
+	background-size: 800px;
+	 padding-bottom: 20px;
+	 padding-top: 20px;
+	}	
+
+#serv_head_h1{
+	text-align: center;
+	background:  rgba(255, 255, 255, 0.8);
+	font-style: bold;
+	font-weight: 800;
+	font-size: 40px;
+	}
+
+
+	
 .absubhead{
 	
 }
