@@ -1,5 +1,6 @@
 
 
+
 .body{
 	width: auto;
     margin: 0.01cm 0.01cm 0.01cm 0.01cm;
@@ -72,13 +73,17 @@ margin: -100px 0 0 -150px;
 	}
 */
 
-.ableft{
+.aboutsect{
+
 	
-	margin-left: -2cm; 
+	}
+
+
+.ableft{
 	background-image:url('../image/aboutsk.jpg');
 	background-size: 800px;
 	background-attachment: relative;
- background-repeat: no-repeat;
+	background-repeat: no-repeat;
 
 	min-height: 400px;
 	margin-bottom: 0px;
