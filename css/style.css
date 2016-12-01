@@ -207,7 +207,7 @@ p.ab_body{
 	 background-attachment: fixed;
 	}	
 
-#serv_head_h1{
+#serv_head1{
 	text-align: center;
 	background:  rgba(255, 255, 255, 0.8);
 	font-style: bold;
@@ -243,34 +243,58 @@ p.ab_body{
 	 height: 300px;
 	 background-attachment: relative;
 	 background-repeat: no-repeat;
-	 background-size: 941px 335px;
+	 background-size: 900px 335px;
 	 background-position: -183px -23px;
 	 border-left-width: 10px;
 	 border-left-color: white;
 	 border-left-style: solid;
 	}
 .dbdev_img:hover{
-		background-size: auto 345px;
-		background-position: -250px -23px;
+		background-size: 945px 350px;
+		background-position: -183px -23px;
 	
 		}
-	
-	
-.absubhead{
-	
-}
-	
-.aboutsect{
+
+.antivi_img{
+	background-image: url('../image/antv.jpg');
+	 padding-bottom: 20px;
+	 padding-top: 20px;
+	 height: 300px;
+	 background-attachment: relative;
+	 background-repeat: no-repeat;
+	background-size: 682px 335px;
+	background-position: -120px -23px;
+	 border-left-width: 10px;
+	 border-left-color: white;
+	 border-left-style: solid;
+	}
+
+.antivi_img:hover{
+	background-size: 690px 350px;
+	background-position: -130px -23px;
 	
 	}
 
-.servsect{
-	
+.firewall_img{
+	background-image: url('../image/fleetfire.png');
+	 padding-bottom: 20px;
+	 padding-top: 20px;
+	 height: 300px;
+	 background-attachment: relative;
+	 background-repeat: no-repeat;
+	 background-size: 534px 279px;
+	background-position: -31px 8px;
+	 border-left-width: 10px;
+	 border-left-color: white;
+	 border-left-style: solid;
+	}	
+.firewall_img:hover{
+	background-size: 544px 289px;
+	background-position: -31px 8px;
 	}
 	
-.prodsect{
+
 	
-	}
 .teamsect{
 	
 	}
