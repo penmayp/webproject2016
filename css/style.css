@@ -265,12 +265,15 @@ p.ab_body{
 	 border-left-width: 10px;
 	 border-left-color: white;
 	 border-left-style: solid;
+<<<<<<< HEAD
 	}
 
 .antivi_img:hover{
 	background-size: 690px 350px;
 	background-position: -130px -23px;
 	
+=======
+>>>>>>> d44d53dca508242996556f0112dbadaa773aae59
 	}
 .prod_name{
 	position: relative;
@@ -278,6 +281,7 @@ p.ab_body{
 	font-weight: 700;
 	font-size: 27px;
 
+<<<<<<< HEAD
 	padding-top: 10px;
     padding-right: 5px;
     padding-bottom: 10px;
@@ -285,7 +289,30 @@ p.ab_body{
 	top: 100px;
 	text-align: center;
 	}
+=======
+.antivi_img:hover{
+	background-size: 690px 350px;
+	background-position: -130px -23px;
+>>>>>>> d44d53dca508242996556f0112dbadaa773aae59
 	
+.firewall_img{
+	background-image: url('../image/fleetfire.png');
+	 padding-bottom: 20px;
+	 padding-top: 20px;
+	 height: 300px;
+	 background-attachment: relative;
+	 background-repeat: no-repeat;
+	 background-size: 534px 279px;
+	background-position: -31px 8px;
+	 border-left-width: 10px;
+	 border-left-color: white;
+	 border-left-style: solid;
+	}	
+.firewall_img:hover{
+	background-size: 544px 289px;
+	background-position: -31px 8px;
+	}
+
 .firewall_img{
 	background-image: url('../image/fleetfire.png');
 	 padding-bottom: 20px;
