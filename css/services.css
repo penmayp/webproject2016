@@ -76,7 +76,7 @@
 	}
 
 		
-@media screen and (max-width: 500px) {
+@media screen and (max-device-width: 600px) {
 	.h_font{
 		font-weight: 900;
 		font-size: 27px;
@@ -96,8 +96,8 @@
 		padding-right: 10px;
 		padding-bottom: 10px;
 		padding-left: 10px;
-		top: 50px;
-		right: 50px;
+		top: 20px;
+		right: 40px;
 		left: 10px;
 		z-index: 10;
 	
