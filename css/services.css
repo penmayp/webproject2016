@@ -1,5 +1,9 @@
 
-
+body {
+	background-image:url('../image/bg7.jpg');
+	 background-size: 1600px;
+	background-attachment: fixed;
+	}		
 
 .head_one{
 	position: absolute;
