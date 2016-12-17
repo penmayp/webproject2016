@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 
 <html>
 	<head>
@@ -23,23 +23,36 @@
 	<body>
 		<div class="formbox">
 			<form>
-			  Full Name:<br>
-			  <input type="text" id="fullname">
+			  Full Name<br>
+			  <input type="text" id="fullname" value="">
 			  <br>
-			  Company Name:<br>
+			  Company Name<br>
 			  <input type="text" id="company">
 			  <br>
-			  Email: <br>
+			  Email <br>
 			  <input type="text" id="email">
 			  <br>
-			  Message: <br>
+			  Message <br>
 			  <textarea id="message">
 			  
 			  </textarea>
 			  <br>
+			 </form> 
 			 
-			  <button onclick="submit">Submit</button>
-			</form> 
+			  <button onclick="submit()">Submit</button>
+			  
+			  
+			  <script>
+		
+				function submit() {
+				
+					alert("Thank you for contacting us.");
+				}
+			</script>
+			
+			
+					  
+			
 		
 		</div>
 		
