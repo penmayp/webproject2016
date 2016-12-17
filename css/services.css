@@ -3,23 +3,20 @@
 
 .head_one{
 	position: absolute;
-	margin-left: 200px;
+	left: 200px;
+	top: 50px;
 
 	
 	font-family: Big Caslon;
 	font-style: bold;
 	font-weight: 900;
-	font-size: 60px;
+	font-size: 50px;
 	text-shadow: 0 0 20px #15cbd8, 0 0 40px #15cbd8;
 	z-index: 50;
 	}
 	
 
 .img_slide {
-	/*
-	padding-left: 150px;
-	padding-right: 90px;*/
-	
   position: absolute;
   margin: auto;
   top: 0;
@@ -39,7 +36,7 @@
 .center_div{
   position: absolute;
   margin: auto;
-  top: 90px;
+  top: 120px;
   right: 0;
   bottom: 0;
   left: 0;
@@ -55,7 +52,7 @@
     padding-right: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
-	top: 200px;
+	top: 220px;
 	right: 200px;
 	left: 30%;
 	z-index: 10;
@@ -63,20 +60,30 @@
 	max-width: 300px;
 	max-height: 400px;
 	}
-.h_font{
-	font-weight: 900;
-	font-size: 27px;
-	text-align: center;
-	color: rgb(16, 25, 160);
-	}
+	.h_font{
+		font-weight: 900;
+		font-size: 27px;
+		text-align: center;
+		color: rgb(16, 25, 160);
+		}
 
-.p_font {
-	font-weight: 600;
-	font-size: 24px;
-	}
+	.p_font {
+		font-weight: 600;
+		font-size: 24px;
+		}
+
+.bottom_button{
+		position: fixed;
+		z-index: 20;
+		right: 20px;
+		bottom: 20px;
+		
+		font-weight: 700;
+		font-size: 30px;
+		}
 
 		
-@media screen and (max-device-width: 600px) {
+@media screen and (max-width: 600px) {
 	.h_font{
 		font-weight: 900;
 		font-size: 27px;
@@ -106,15 +113,17 @@
 	}
 	
 	.head_one{
-	position: absolute;
-	margin-left: 50px;
+		position: absolute;
+		left: 20px;
 
+		font-weight: 900;
+		font-size: 30px;
+		
+		z-index: 50;
+		}
 	
-
-	font-weight: 900;
-	font-size: 40px;
-	
-	z-index: 50;
+	.bottom_button{
+		bottom: 300px;
 	}
 }
 
