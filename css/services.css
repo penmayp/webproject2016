@@ -1,7 +1,120 @@
 
 
-.img_slide {
-	padding-left: 90px;
-	padding-right: 90px;
+
+.head_one{
+	position: absolute;
+	margin-left: 200px;
+
+	
+	font-family: Big Caslon;
+	font-style: bold;
+	font-weight: 900;
+	font-size: 60px;
+	text-shadow: 0 0 20px #15cbd8, 0 0 40px #15cbd8;
+	z-index: 50;
 	}
+	
+
+.img_slide {
+	/*
+	padding-left: 150px;
+	padding-right: 90px;*/
+	
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #ccc;
+  
+  border-radius: 3px;
+   max-width: 1000px;
+	}
+
+.img_size{
+	width: 1000px;
+	}
+
+.center_div{
+  position: absolute;
+  margin: auto;
+  top: 90px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  
+   max-width: 800px;
+	}
+	
+.overtext{
+	position: absolute;
+	background:  rgba(255, 255, 255, 0.8);
+	
+	padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+	top: 200px;
+	right: 200px;
+	left: 30%;
+	z-index: 10;
+	
+	max-width: 300px;
+	max-height: 400px;
+	}
+.h_font{
+	font-weight: 900;
+	font-size: 27px;
+	text-align: center;
+	color: rgb(16, 25, 160);
+	}
+
+.p_font {
+	font-weight: 600;
+	font-size: 24px;
+	}
+
+		
+@media screen and (max-width: 500px) {
+	.h_font{
+		font-weight: 900;
+		font-size: 27px;
+		text-align: center;
+		}
+
+	.p_font {
+		font-weight: 900;
+		font-size: 24px;
+		}
+	
+	.overtext{
+		position: absolute;
+		background:  rgba(255, 255, 255, 0.8);
+		
+		padding-top: 10px;
+		padding-right: 10px;
+		padding-bottom: 10px;
+		padding-left: 10px;
+		top: 50px;
+		right: 50px;
+		left: 10px;
+		z-index: 10;
+	
+		max-width: 900px;
+		max-height: 400px;
+	}
+	
+	.head_one{
+	position: absolute;
+	margin-left: 50px;
+
+	
+
+	font-weight: 900;
+	font-size: 40px;
+	
+	z-index: 50;
+	}
+}
 
